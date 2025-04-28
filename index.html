@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix Logo">
+        </div>
+        <nav class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">Latest</a>
+            <a href="#">My List</a>
+        </nav>
+        <div class="user-menu">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-bell"></i>
+            <div class="profile-icon"></div>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Unlimited movies, TV shows, and more</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <div class="cta-container">
+                <input type="email" placeholder="Email address">
+                <button id="hero-button">Get Started <i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="movies">
+        <h2>Trending Now</h2>
+        <div class="movies-container" id="trending"></div>
+    </section>
+
+    <section class="movies">
+        <h2>Popular on Netflix</h2>
+        <div class="movies-container" id="popular"></div>
+    </section>
+
+    <section class="movies">
+        <h2>Recently Added</h2>
+        <div class="movies-container" id="newReleases"></div>
+    </section>
+
+    <section class="movies">
+        <h2>Top Movies</h2>
+        <div class="movies-container" id="topMovies"></div>
+    </section>
+
+    <section class="movies">
+        <h2>Top TV Shows</h2>
+        <div class="movies-container" id="topTVShows"></div>
+    </section>
+
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <div class="faq-question">What is Netflix? <i class="fas fa-plus"></i></div>
+            <div class="faq-answer">
+                Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">How much does Netflix cost? <i class="fas fa-plus"></i></div>
+            <div class="faq-answer">
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from $9.99 to $19.99 a month. No extra costs, no contracts.
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Where can I watch? <i class="fas fa-plus"></i></div>
+            <div class="faq-answer">
+                Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app.
+            </div>
+        </div>
+    </section>
+
+    <section class="service">
+        <h2>Ready to watch? Enter your email to create or restart your membership.</h2>
+        <div class="cta-container">
+            <input type="email" placeholder="Email address">
+            <button id="service-button">Get Started <i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Questions? Call 1-844-505-2993</p>
+            <div class="footer-links">
+                <a href="#">FAQ</a>
+                <a href="#">Help Center</a>
+                <a href="#">Account</a>
+                <a href="#">Media Center</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Jobs</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Speed Test</a>
+                <a href="#">Legal Notices</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="language-selector">
+                <i class="fas fa-globe"></i>
+                <select>
+                    <option>English</option>
+                    <option>Shqip</option>
+                </select>
+            </div>
+            <p class="copyright">Netflix Clone for Educational Purposes</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
